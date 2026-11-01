@@ -1,0 +1,24 @@
+<resources>
+    <!-- App name (also used as the big title on the first screen) -->
+    <string name="app_name">CampusKey</string>
+
+    <!-- Screen 1: school entry -->
+    <string name="main_tagline">Find student accommodation near your campus</string>
+    <string name="main_step1_title">Step 1: Type your school\'s name</string>
+    <string name="main_step1_instruction">Start typing and choose it from the list that appears.</string>
+    <string name="school_input_hint">e.g. University of Zambia</string>
+    <string name="main_step2_title">Step 2: See accommodation sorted by distance</string>
+    <string name="find_button">Find Accommodation</string>
+    <string name="invalid_school_message">Please type a school name and choose it from the suggestions list.</string>
+
+    <!-- Screen 2: accommodation list -->
+    <string name="listings_activity_label">Accommodation Near You</string>
+    <string name="listings_default_title">Accommodation</string>
+    <string name="listings_instructions">Sorted nearest first. Scroll down to see them all, or tap the button above to choose a different school.</string>
+    <string name="back_button">← Change school</string>
+
+    <!-- Text built from values at runtime (%1$s = text, %1$d = whole number, %1$.1f = number with 1 decimal) -->
+    <string name="listings_title_format">Accommodation near %1$s</string>
+    <string name="price_per_month_format">K%1$d / month</string>
+    <string name="distance_away_format">%1$.1f km away</string>
+</resources>
